@@ -19,7 +19,7 @@ class linkedList {
     prepend (value) {
         //Check if its any empty node
         if (!this.head) {
-            this.head = new mode(value);
+            this.head = new node(value);
             return this;
         }
         const prevHead = this.head;
@@ -30,7 +30,7 @@ class linkedList {
        //Check if its an  empty list
        if(!this.head) return null;
        let tail = this.head;
-       while (tail.text !== null) {
+       while (tail.next !== null) {
         tail = tail.next;
        }
        return tail; 
