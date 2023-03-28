@@ -3,7 +3,7 @@
 class linkedList {
      constructor (head = null) {
         this.head = head;
-    }; 
+    };  
 
     append (value) {
         // checj if its empty mode 
